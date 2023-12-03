@@ -7,19 +7,19 @@ import { Footer } from "./components/Footer/Footer";
 import { Body } from "./components/BodyDiv/Body";
 
 function App() {
-  return (
-    <BrowserRouter>
-      <Body>
-        {/* <div> */}
-        <Header />
+    return (
+        <BrowserRouter>
+            <Body>
+                {/* <div> */}
+                <Header />
 
-        <Main />
+                <Main />
 
-        <Footer />
-        {/* </div> */}
-      </Body>
-    </BrowserRouter>
-  );
+                <Footer />
+                {/* </div> */}
+            </Body>
+        </BrowserRouter>
+    );
 }
 
 export default App;
