@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
         font-style: normal;
         font-weight: 400;
         margin: 0;
-        /* background-color: #0e1014; */
+        background-color: #0e1014;
     }
 
     body *{

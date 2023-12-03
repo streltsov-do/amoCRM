@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import montserrat from './Montserrat/Montserrat-Regular.ttf';
+import montserrat from "./Montserrat/Montserrat-Regular.ttf";
 
 const FontStyles = createGlobalStyle`
 

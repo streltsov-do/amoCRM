@@ -4,23 +4,22 @@ import { BrowserRouter } from "react-router-dom";
 import { Header } from "./components/Header/Header";
 import { Main } from "./components/Main/Main";
 import { Footer } from "./components/Footer/Footer";
-import { MainDiv } from "./components/MainDIv/MainDiv";
+import { Body } from "./components/BodyDiv/Body";
 
 function App() {
-    return (
-        <BrowserRouter>
-            <MainDiv>
-                <div>
-                    <Header />
+  return (
+    <BrowserRouter>
+      <Body>
+        {/* <div> */}
+        <Header />
 
-                    <Main />
+        <Main />
 
-                    <Footer />
-                </div>
-            </MainDiv>
-        </BrowserRouter>
-    );
+        <Footer />
+        {/* </div> */}
+      </Body>
+    </BrowserRouter>
+  );
 }
 
 export default App;
-
